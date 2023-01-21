@@ -25,6 +25,9 @@ body {
 h1 {
   font-size: 96px;
 }
+h2 {
+  font-size: 64px;
+}
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -72,5 +75,9 @@ h1 {
   }
   .hero {
     padding: 80px 20px;
+  }
+  .project-description {
+    text-align: center;
+    padding: 0;
   }
 }
