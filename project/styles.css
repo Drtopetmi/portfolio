@@ -57,12 +57,19 @@ h1 {
   border: 1px solid var(--branding-color);
   font-size: 18px;
   line-height: 27px;
-  padding: 15px 28px;
+  padding: 15px 30px;
 }
 .project-description {
-  padding: 40px 60px;
+  padding: 120px 60px;
 }
-@media (max-width: 960px) {
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+  h2 {
+    font-size: 44px;
+  }
   .project-description {
     padding: 0;
     text-align: center;
